@@ -25,6 +25,3 @@ The Random Quote Generator is a web application that displays random quotes to i
 
 Access the live version of the Random Quote Generator here:
 https://random-quote-khaki-nu.vercel.app/
-
-## Github Repo
-https://github.com/nihalkumar33/randomQuote
