@@ -1,4 +1,5 @@
 # Random Quote Generator
+https://random-quote-khaki-nu.vercel.app/
 
 ## Overview
 
@@ -21,7 +22,3 @@ The Random Quote Generator is a web application that displays random quotes to i
 
 *Screenshot: The application displaying a random quote.*
 
-## Deployment
-
-Access the live version of the Random Quote Generator here:
-https://random-quote-khaki-nu.vercel.app/
