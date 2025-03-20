@@ -44,11 +44,13 @@ function handleData(data) {
 // Change background randomly
 document.getElementById("changeBgButton").addEventListener("click", function () {
     const images = [
-        'images/bg1.jpg',
-        'images/bg2.jpg',
-        'images/bg3.jpg',
-        'images/bg4.jpg'
+        'https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4',
+        'https://fastly.picsum.photos/id/83/2560/1920.jpg?hmac=LFdAxfpbYKs0hZr0LhHVWyqXarWGg7FtM8pIzJPBc0w',
+        'https://fastly.picsum.photos/id/76/4912/3264.jpg?hmac=VkFcSa2Rbv0R0ndYnz_FAmw02ON1pPVjuF_iVKbiiV8',
+        'https://fastly.picsum.photos/id/85/1280/774.jpg?hmac=h_HHpvfhMmLP6uOSrHS7HSlXVRuMKfBbc8HFKd1Acv4',
+        'https://fastly.picsum.photos/id/89/4608/2592.jpg?hmac=G9E4z5RMJgMUjgTzeR4CFlORjvogsGtqFQozIRqugBk'
     ];
+
     const randomImage = images[Math.floor(Math.random() * images.length)];
     document.getElementById("body").style.background = `url('${randomImage}') no-repeat center center fixed`;
     document.getElementById("body").style.backgroundSize = "cover";
